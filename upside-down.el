@@ -116,8 +116,10 @@ leave the original text unchanged."
      #'(lambda (s)
          (let ((inv   (cdr (assoc s  upside-down-mapping)))
                (uninv (car (rassoc s upside-down-mapping))))
-           (if inv inv
-             (if uninv uninv s))))
+           (cond
+            (inv inv)
+            (uninv uninv)
+            (t s))))
      (reverse bits)
      "")))
 
