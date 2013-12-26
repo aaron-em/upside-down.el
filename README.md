@@ -55,7 +55,8 @@ which takes a hand-drawn representation of the character you want and
 finds the most visually similar among its database of ca. 12000
 characters.
 
-;;; Miscellany:
+Miscellany
+----------
 
 The canonical version of this file is hosted in [my Github
 repository][REPO]. If you didn't get it from there, great! I'm
